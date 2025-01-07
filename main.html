@@ -7,10 +7,32 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<!-- the entire body must be written by the student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<form action="/submit" method="get" name="">
+	<label for="name">Name</label>
+	<input type="text" required id="name" placehollder="Name">
+	<label for="email">Email</label>
+	<input type="email"  required id="email" placeholder="email">
+	<label>Gender</label>
+	<label for="gender_m">M</label>
+	<input type="radio" name="gender" required id="gender_m">Male
+	<label for="gender_f">F</label>
+	<input type="radio" name="gender" required id="gender_f">Female
+	<h3>Car Brands</h3>
+	<select id>
+		<option>select car</option>
+		<options>Suzuki</options>
+		<options>Hyundai</options>
+	</select>
+	<label for="age">Age</label>
+	<input type="number" required id="age" placeholder="Age">
+	<label for="dob">DOB</label>
+	<input type="date" required id="dob">
+	<label for="tel">Phone Number</label>
+	<input type="Tel" id="tel" placeholder="xxx-xxx-xxxx">
+</form>
 </body>
 
 </html>
